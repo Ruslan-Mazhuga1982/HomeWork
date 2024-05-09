@@ -66,6 +66,11 @@ cars_count = 0
 for i in cars_:
     print('Я езжу на автомобиле марки', i, cars_count)
     cars_count += 10
-
-
+#Вариант 2
+cars_ = ['BMW', 'MB', 'LADA', 'KIA', 'HONDA']
+cars_count = 0
+for i in range(10):
+    i = cars_[0]
+    print('Я езжу на автомобиле марки', i, cars_count)
+    cars_count += 10
 
